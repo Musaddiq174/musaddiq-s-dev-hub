@@ -258,7 +258,12 @@ export function Contact() {
               <Mail className="h-4 w-4 text-primary" aria-hidden="true" /> Email
             </dt>
             <dd className="mt-2 break-all text-sm font-medium">
-              <a href={`mailto:${profile.email}`} className="hover:text-primary">
+              <a
+                href={`mailto:${profile.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
                 {profile.email}
               </a>
             </dd>
@@ -284,6 +289,8 @@ export function Contact() {
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <a
             href={`mailto:${profile.email}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             <Mail className="h-4 w-4" aria-hidden="true" /> Send Email

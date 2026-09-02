@@ -86,6 +86,7 @@ export type Project = {
   metrics?: string[];
   featured?: boolean;
   core?: boolean;
+  image?: string;
 };
 
 export const projects: Project[] = [

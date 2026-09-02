@@ -1,3 +1,5 @@
+import aiResumeAnalyzerImage from "@/assets/ai-resume-analyzer-preview.png.asset.json";
+
 export const profile = {
   name: "Musaddiq Hussain",
   title: "Junior Python Developer",

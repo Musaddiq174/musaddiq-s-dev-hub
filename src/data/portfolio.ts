@@ -255,6 +255,7 @@ export const projects: Project[] = [
     demo: "https://inventory-master-liart.vercel.app/",
     repo: "https://github.com/Musaddiq174/inventory-master",
     accent: "cyan",
+    image: inventoryMasterImage.url,
     note: "Presented as a frontend business application.",
   },
 ];

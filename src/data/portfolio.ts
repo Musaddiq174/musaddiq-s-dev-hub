@@ -1,6 +1,7 @@
 import aiResumeAnalyzerImage from "@/assets/ai-resume-analyzer-preview.png.asset.json";
 import littleLemonImage from "@/assets/little-lemon-preview.png.asset.json";
 import inventoryMasterImage from "@/assets/inventory-master-preview.png.asset.json";
+import smartAssessImage from "@/assets/smart-assess-preview.png.asset.json";
 
 export const profile = {
   name: "Musaddiq Hussain",
@@ -209,6 +210,7 @@ export const projects: Project[] = [
     demo: "https://smart-assess-platform.vercel.app/",
     repo: "https://github.com/Musaddiq174/smart-assess-platform",
     accent: "emerald",
+    image: smartAssessImage.url,
     core: true,
   },
   {

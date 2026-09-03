@@ -2,6 +2,7 @@ import aiResumeAnalyzerImage from "@/assets/ai-resume-analyzer-preview.png.asset
 import littleLemonImage from "@/assets/little-lemon-preview.png.asset.json";
 import inventoryMasterImage from "@/assets/inventory-master-preview.png.asset.json";
 import smartAssessImage from "@/assets/smart-assess-preview.png.asset.json";
+import cssSuccessPathImage from "@/assets/css-success-path-preview.png.asset.json";
 
 export const profile = {
   name: "Musaddiq Hussain",
@@ -189,6 +190,7 @@ export const projects: Project[] = [
     demo: "https://path-to-proficiency.vercel.app/",
     repo: "https://github.com/Musaddiq174/path-to-proficiency",
     accent: "emerald",
+    image: cssSuccessPathImage.url,
     core: true,
   },
   {

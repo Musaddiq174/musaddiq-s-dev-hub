@@ -1,5 +1,6 @@
 import aiResumeAnalyzerImage from "@/assets/ai-resume-analyzer-preview.png.asset.json";
 import littleLemonImage from "@/assets/little-lemon-preview.png.asset.json";
+import inventoryMasterImage from "@/assets/inventory-master-preview.png.asset.json";
 
 export const profile = {
   name: "Musaddiq Hussain",

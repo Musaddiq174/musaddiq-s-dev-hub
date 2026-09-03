@@ -113,6 +113,7 @@ export const projects: Project[] = [
     demo: "https://resume-insight-ai-82.vercel.app/",
     repo: "https://github.com/Musaddiq174/resume-insight-ai-82",
     accent: "violet",
+    image: aiResumeAnalyzerImage.url,
     note: "Presented as an AI resume analysis interface / prototype — no real LLM backend is claimed.",
     featured: true,
   },

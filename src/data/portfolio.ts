@@ -228,6 +228,7 @@ export const projects: Project[] = [
     demo: "https://little-lemon-zeta-bice.vercel.app/",
     repo: "https://github.com/Musaddiq174/little-lemon-showcase",
     accent: "amber",
+    image: littleLemonImage.url,
     metrics: ["50% customer engagement improvement", "20% mobile responsiveness improvement"],
     note: "Metrics are as stated in my CV.",
   },

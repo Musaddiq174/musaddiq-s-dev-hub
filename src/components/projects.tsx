@@ -37,6 +37,23 @@ function ProjectIcon({ project, className = "h-6 w-6" }: { project: Project; cla
 }
 
 function Preview({ project }: { project: Project }) {
+  if (project.image) {
+    return (
+      <div
+        className="relative h-40 overflow-hidden rounded-lg border border-border bg-card"
+        role="img"
+        aria-label={`${project.name} preview`}
+      >
+        <img
+          src={project.image}
+          alt={`${project.name} preview`}
+          className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`relative flex h-40 items-center justify-center overflow-hidden rounded-lg border border-border ${accentBg[project.accent]}`}

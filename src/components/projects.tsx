@@ -92,7 +92,7 @@ function ProjectCard({
 }) {
   return (
     <article
-      className={`card-surface card-lift flex h-full flex-col gap-4 p-5 ${
+      className={`card-surface card-lift group flex h-full flex-col gap-4 p-5 ${
         featured || project.core ? "ring-1 ring-primary/25" : ""
       }`}
     >

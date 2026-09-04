@@ -3,6 +3,7 @@ import littleLemonImage from "@/assets/little-lemon-preview.png.asset.json";
 import inventoryMasterImage from "@/assets/inventory-master-preview.png.asset.json";
 import smartAssessImage from "@/assets/smart-assess-preview.png.asset.json";
 import cssSuccessPathImage from "@/assets/css-success-path-preview.png.asset.json";
+import aiInsightsHubImage from "@/assets/ai-insights-hub-preview.png.asset.json";
 
 export const profile = {
   name: "Musaddiq Hussain",
@@ -166,6 +167,7 @@ export const projects: Project[] = [
     demo: "https://ai-insights-hub-kappa.vercel.app/",
     repo: "https://github.com/Musaddiq174/ai-insights-hub",
     accent: "amber",
+    image: aiInsightsHubImage.url,
     note: "Presented as an AI document assistant interface / prototype — no real document-processing backend is claimed.",
     featured: true,
   },

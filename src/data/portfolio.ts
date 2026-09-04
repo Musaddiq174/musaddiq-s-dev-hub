@@ -140,7 +140,7 @@ export const projects: Project[] = [
     ],
     tags: ["AI", "Customer Support", "Chat Interface", "Knowledge Base", "Analytics"],
     filters: ["AI"],
-    demo: "https://assistai-suite-3q5t15dyj-musaddiqh0123-7969s-projects.vercel.app/",
+    demo: "https://assistai-suite.vercel.app/",
     repo: "https://github.com/Musaddiq174/assistai-suite",
     accent: "cyan",
     note: "Presented as an AI customer support interface / prototype — no real LLM backend is claimed.",

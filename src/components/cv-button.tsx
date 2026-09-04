@@ -1,8 +1,6 @@
 import { Download } from "lucide-react";
 import { cn } from "@/lib/utils";
-import cvAsset from "@/assets/Musaddiq-HussainResume.pdf.asset.json";
-
-export const CV_URL = cvAsset.url;
+export const CV_URL = "/files/Musaddiq-HussainResume.pdf";
 
 export function DownloadCvButton({
   className,

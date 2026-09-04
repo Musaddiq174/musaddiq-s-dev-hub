@@ -1,11 +1,3 @@
-import aiResumeAnalyzerImage from "@/assets/ai-resume-analyzer-preview.png.asset.json";
-import assistaiSuiteImage from "@/assets/assistai-suite-preview.png.asset.json";
-import littleLemonImage from "@/assets/little-lemon-preview.png.asset.json";
-import inventoryMasterImage from "@/assets/inventory-master-preview.png.asset.json";
-import smartAssessImage from "@/assets/smart-assess-preview.png.asset.json";
-import cssSuccessPathImage from "@/assets/css-success-path-preview.png.asset.json";
-import aiInsightsHubImage from "@/assets/ai-insights-hub-preview.png.asset.json";
-
 export const profile = {
   name: "Musaddiq Hussain",
   title: "Junior Python Developer",
@@ -119,7 +111,7 @@ export const projects: Project[] = [
     demo: "https://resume-insight-ai-82.vercel.app/",
     repo: "https://github.com/Musaddiq174/resume-insight-ai-82",
     accent: "violet",
-    image: aiResumeAnalyzerImage.url,
+    image: "/images/ai-resume-analyzer-preview.png",
     note: "Presented as an AI resume analysis interface / prototype — no real LLM backend is claimed.",
     featured: true,
   },
@@ -144,7 +136,7 @@ export const projects: Project[] = [
     demo: "https://assistai-suite.vercel.app/",
     repo: "https://github.com/Musaddiq174/assistai-suite",
     accent: "cyan",
-    image: assistaiSuiteImage.url,
+    image: "/images/assistai-suite-preview.png",
     note: "Presented as an AI customer support interface / prototype — no real LLM backend is claimed.",
     featured: true,
   },
@@ -169,7 +161,7 @@ export const projects: Project[] = [
     demo: "https://ai-insights-hub-kappa.vercel.app/",
     repo: "https://github.com/Musaddiq174/ai-insights-hub",
     accent: "amber",
-    image: aiInsightsHubImage.url,
+    image: "/images/ai-insights-hub-preview.png",
     note: "Presented as an AI document assistant interface / prototype — no real document-processing backend is claimed.",
     featured: true,
   },
@@ -194,7 +186,7 @@ export const projects: Project[] = [
     demo: "https://path-to-proficiency.vercel.app/",
     repo: "https://github.com/Musaddiq174/path-to-proficiency",
     accent: "emerald",
-    image: cssSuccessPathImage.url,
+    image: "/images/css-success-path-preview.png",
     core: true,
   },
   {
@@ -216,7 +208,7 @@ export const projects: Project[] = [
     demo: "https://smart-assess-platform.vercel.app/",
     repo: "https://github.com/Musaddiq174/smart-assess-platform",
     accent: "emerald",
-    image: smartAssessImage.url,
+    image: "/images/smart-assess-preview.png",
     core: true,
   },
   {
@@ -237,7 +229,7 @@ export const projects: Project[] = [
     demo: "https://little-lemon-zeta-bice.vercel.app/",
     repo: "https://github.com/Musaddiq174/little-lemon-showcase",
     accent: "amber",
-    image: littleLemonImage.url,
+    image: "/images/little-lemon-preview.png",
     metrics: ["50% customer engagement improvement", "20% mobile responsiveness improvement"],
     note: "Metrics are as stated in my CV.",
   },
@@ -263,7 +255,7 @@ export const projects: Project[] = [
     demo: "https://inventory-master-liart.vercel.app/",
     repo: "https://github.com/Musaddiq174/inventory-master",
     accent: "cyan",
-    image: inventoryMasterImage.url,
+    image: "/images/inventory-master-preview.png",
     note: "Presented as a frontend business application.",
   },
 ];

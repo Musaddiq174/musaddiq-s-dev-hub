@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep employment entries in the shared portfolio data with optional description, location, and highlight fields; the existing Experience timeline renders only supplied details to avoid invented claims.

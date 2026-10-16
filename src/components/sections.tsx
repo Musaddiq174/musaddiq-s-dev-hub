@@ -175,7 +175,7 @@ export function Experience() {
                 <div>
                   <h3 className="text-lg font-semibold">{job.role}</h3>
                   <p className="text-muted-foreground">
-                    {job.company} · {job.location}
+                    {job.company}{job.location ? ` · ${job.location}` : ""}
                   </p>
                 </div>
                 <span className="rounded-full border border-border bg-secondary px-3 py-1 font-mono text-xs text-secondary-foreground">
@@ -183,9 +183,16 @@ export function Experience() {
                 </span>
               </div>
 
-              <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/12 px-3 py-1.5 text-sm font-semibold text-primary">
-                <TrendingUp className="h-4 w-4" aria-hidden="true" /> {job.highlight}
-              </p>
+              {job.description && (
+                <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+                  {job.description}
+                </p>
+              )}
+              {job.highlight && (
+                <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/12 px-3 py-1.5 text-sm font-semibold text-primary">
+                  <TrendingUp className="h-4 w-4" aria-hidden="true" /> {job.highlight}
+                </p>
+              )}
 
               <ul className="mt-5 space-y-2.5">
                 {job.points.map((p) => (

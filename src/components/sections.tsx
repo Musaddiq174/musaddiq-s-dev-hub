@@ -202,6 +202,24 @@ export function Experience() {
                   </li>
                 ))}
               </ul>
+
+              {job.skills && job.skills.length > 0 && (
+                <div className="mt-6">
+                  <p className="font-mono text-xs uppercase tracking-[0.18em] text-primary">
+                    Skills
+                  </p>
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {job.skills.map((skill) => (
+                      <li
+                        key={skill}
+                        className="rounded-full border border-border bg-secondary px-3 py-1.5 font-mono text-xs text-secondary-foreground"
+                      >
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </Reveal>
         ))}

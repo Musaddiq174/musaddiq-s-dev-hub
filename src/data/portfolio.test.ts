@@ -7,4 +7,14 @@ test("SehgalMotors employment uses the supplied duration without invented detail
   assert.equal(job?.period, "May 2025 – August 2026");
   assert.equal(job?.location, undefined);
   assert.equal(job?.highlight, undefined);
+  assert.deepEqual(job?.skills, [
+    "SEO Content Writing",
+    "Keyword Research",
+    "On-Page SEO",
+    "Product Description Writing",
+    "Content Optimization",
+    "Meta Title & Description Optimization",
+    "Shopify",
+    "Website Content Management",
+  ]);
 });

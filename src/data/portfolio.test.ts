@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { test } from "node:test";
-import { experience, skillGroups } from "./portfolio";
+import { experience, skillGroups } from "./portfolio.ts";
 
 const seoSkills = [
   "SEO Content Writing",

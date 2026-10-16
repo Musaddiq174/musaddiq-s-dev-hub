@@ -26,7 +26,8 @@ test("SehgalMotors employment uses the supplied duration without invented detail
 });
 
 test("SEO & Content Creation is the last toolkit card and lists all 8 supplied skills", () => {
-  const group = skillGroups[skillGroups.length - 1];
+  const group = skillGroups.at(-1);
+  assert.ok(group, "toolkit must not be empty");
   assert.equal(group.title, "SEO & Content Creation");
   assert.deepEqual(group.items, seoSkills);
 });

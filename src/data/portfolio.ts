@@ -62,6 +62,7 @@ export type ExperienceEntry = {
   description?: string;
   highlight?: string;
   points: string[];
+  skills?: string[];
 };
 
 export const experience: ExperienceEntry[] = [
@@ -89,6 +90,16 @@ export const experience: ExperienceEntry[] = [
       "Wrote SEO-focused website content.",
       "Created and optimized content for search visibility.",
       "Supported content development and on-page SEO activities.",
+    ],
+    skills: [
+      "SEO Content Writing",
+      "Keyword Research",
+      "On-Page SEO",
+      "Product Description Writing",
+      "Content Optimization",
+      "Meta Title & Description Optimization",
+      "Shopify",
+      "Website Content Management",
     ],
   },
 ];

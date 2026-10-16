@@ -54,7 +54,17 @@ export const skillGroups = [
   },
 ];
 
-export const experience = [
+export type ExperienceEntry = {
+  role: string;
+  company: string;
+  location?: string;
+  period: string;
+  description?: string;
+  highlight?: string;
+  points: string[];
+};
+
+export const experience: ExperienceEntry[] = [
   {
     role: "Associate Trainee Intern",
     company: "VisNext Software Solutions",
@@ -67,6 +77,18 @@ export const experience = [
       "Collaborated with senior developers to improve application functionality and performance.",
       "Participated in debugging, testing, and database-related tasks.",
       "Contributed to team projects while following clean coding practices and version control workflows.",
+    ],
+  },
+  {
+    role: "SEO Content Writer",
+    company: "SehgalMotors.pk",
+    period: "May 2025 – August 2026",
+    description:
+      "Worked as an SEO Content Writer, contributing to website content creation and search engine optimization.",
+    points: [
+      "Wrote SEO-focused website content.",
+      "Created and optimized content for search visibility.",
+      "Supported content development and on-page SEO activities.",
     ],
   },
 ];
